@@ -1,4 +1,4 @@
-'use strict';
+
 
 const path = require('path');
 
@@ -55,6 +55,7 @@ const babelOptions = {
     ],
   ],
   retainLines: true,
+  sourceMaps: 'both',
 };
 
 module.exports = {
